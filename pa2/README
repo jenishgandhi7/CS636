@@ -1,0 +1,35 @@
+Project Updates:-
+
+who your partner?
+- Arzoo Kheni (a.kheni002@umb.edu)
+
+where to find the project to grade
+- Here. In my directory cs636/pa2
+
+How much is implemented
+- We have implemented User web Pages and AdminApp both.
+
+I have working on below files. 
+
+cs636/music3: base directory of project Note
+
+src/main/java:
+- cs636.music.presentation.web:  CatalogController and SalesController, userBean      
+- cs636.music.service: Changes in UserServices 
+
+src/main/webapp:
+
+- includes: Add into Header, Footer, siderbar and admin_sidebar
+- styles: added main.css
+- WEB-INF/jsp/*.jsp   All user Pages (catalog, product,sound,cart,register,Invoice)
+
+
+Arzoo Kheni has worked on below files:-
+ 
+src/main/java:
+cs636.music.presentation.web: AdminController, CatalogController (UpdateCart)     
+cs636.music.service: changes into adminService
+
+src/main/webapp:
+WEB-INF/admin/*.jsp - admin pages (Pending Invoice, Downloads reports, All Invoice report) 
+

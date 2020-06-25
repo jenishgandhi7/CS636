@@ -1,0 +1,224 @@
+/* minimal CSS for cs636: just positioning parts of the page */
+body {
+	width: auto;
+}
+/* #sidebar {
+    float: left;
+    width: 150px;
+} */
+header {
+	display: block;
+}
+
+.header-wrap {
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	padding: 40px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	display: inline-block;
+	background: #333;
+}
+
+.logo a {
+	display: block;
+	width: 255px;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+img {
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+}
+
+section {
+	float: left;
+	width: auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 10px;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#sidebar ul {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#sidebar li {
+	float: left;
+}
+
+#sidebar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+#sidebar li a:hover:not (.active ) {
+	background-color: #111;
+}
+
+#sidebar .active {
+	background-color: #4CAF50;
+}
+
+#sidecol {
+	position: absolute;
+	margin: 52px 0px;
+}
+
+.sidenav {
+	width: 225px;
+	z-index: 1;
+	top: 20px;
+	left: 10px;
+	background: #333;
+	overflow-x: hidden;
+	padding: 8px 0;
+}
+
+.sidebarPlayarea {
+	margin-top: 10px;
+	padding-left: 15%;
+}
+
+#admin_menu {
+	padding-left: 5% !important;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 16px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+	display: block;
+}
+
+.sidenav .active {
+	background-color: #4CAF50;
+}
+
+.sidenav a:hover {
+	background-color: #111;
+}
+
+.right {
+	text-align: right;
+	float: right;
+}
+
+input[type=submit] {
+	background-color: #333;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-size: 22px;
+}
+
+#register input[type=text] {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+#register {
+	width: 50%;
+}
+
+#btn a:link, #btn a:visited {
+	background-color: #333;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+}
+
+#btn a:hover, #btn a:active {
+	background-color: #111;
+}
+
+.main {
+	margin-left: 250px;
+	/* Same width as the sidebar + left position in px */
+	font-size: 25px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+
+#admin_login input[type=text], input[type=password] {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+#admin_login {
+	width: 50%;
+}
+
+#adminLogin {
+	width: 38%;
+}
+
+#admin_side input[type="submit"] {
+	padding: 10px 15px !important;
+}
+
+#update_btn {
+	padding: 8px !important;
+	font-size: 16px !important;
+}
+
+#input_qty {
+	width: 15% !important;
+	padding: 8px !important;
+	text-align: center !important;
+}
+
+#quantity_id {
+	
+	width: 14% !important;
+text-align: center !important;
+}
+
+#cart{
+	padding-left: 10% !important;
+	    width: 75% !important;
+}
