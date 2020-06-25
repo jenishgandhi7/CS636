@@ -1,0 +1,51 @@
+Script started on Tue 10 Mar 2020 11:21:56 AM EDT
+jenish@topcat:~/cs636/pa1a$ sh runOnOracle.sh Register
+runOnOracle.sh: 1: runOnOracle.sh: music#: not found
+Picked up _JAVA_OPTIONS: -Djava.security.egd=file:/dev/../dev/urandom
+running SystemTest, calling config with: jdbc:oracle:thin:@dbs3.cs.umb.edu:1521:dbs3 jenish jenish
+Register called with jdbc:oracle:thin:@dbs3.cs.umb.edu:1521:dbs3
+*******************************************************
+New User is Successfully registered. As details as below
+*******************************************************
+User id: 10
+First Name: Jenish
+Last Name: Gandhi
+Email id: jenish.gandhi7@gmail.com
+*******************************************************
+
+
+Run complete, exiting
+jenish@topcat:~/cs636/pa1a$ sh runOnMysql.sh Register
+Picked up _JAVA_OPTIONS: -Djava.security.egd=file:/dev/../dev/urandom
+running SystemTest, calling config with: jdbc:mysql://topcat.cs.umb.edu:3306/jenishdb jenish jenish
+Register called with jdbc:mysql://topcat.cs.umb.edu:3306/jenishdb
+*******************************************************
+New User is Successfully registered. As details as below
+*******************************************************
+User id: 10
+First Name: Jenish
+Last Name: Gandhi
+Email id: jenish.gandhi7@gmail.com
+*******************************************************
+
+
+Run complete, exiting
+jenish@topcat:~/cs636/pa1a$ sh runOnMysql.sh Register
+Picked up _JAVA_OPTIONS: -Djava.security.egd=file:/dev/../dev/urandom
+running SystemTest, calling config with: null null null
+ Replacing null dbUrl with jdbc:h2:~/test-music
+*******************************************************
+New User is Successfully registered. As details as below
+*******************************************************
+User id: 10
+First Name: Jenish
+Last Name: Gandhi
+Email id: jenish.gandhi7@gmail.com
+*******************************************************
+
+
+Run complete, exiting
+jenish@topcat:~/cs636/pa1a$ exit
+exit
+
+Script done on Tue 10 Mar 2020 11:22:56 AM EDT

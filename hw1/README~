@@ -1,0 +1,7 @@
+See comments at the start of JdbcCheckup.java for how to run
+JdbcCheckup to test your JDBC connectivity to our three
+databases.
+Transfer.java: a program with a transaction
+JdbcComplexQueryExample.java: using a cursor with a complex query, i.e.
+cursors are not just for "select name from T where age > 10" type queries,
+but any query that returns multiple rows.

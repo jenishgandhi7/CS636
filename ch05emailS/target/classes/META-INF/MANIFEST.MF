@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: email-list
+Implementation-Version: 1
+Built-By: chintan
+Implementation-Vendor-Id: org.springframework.boot
+Build-Jdk: 1.8.0_91
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/email-list
+Created-By: Maven Integration for Eclipse
+Main-Class: murach.email.WebApplication
+
